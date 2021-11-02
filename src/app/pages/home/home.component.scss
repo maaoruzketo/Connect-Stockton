@@ -1,0 +1,120 @@
+.buildingsIMG{
+    width: 943px;
+    height: 738px;
+    
+}
+.checkBox{
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.colorBtn{
+    border-radius: 10px;
+    background: #00F6FF 0% 0% no-repeat padding-box;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #230C87;
+}
+.connectCardB{
+    background: transparent linear-gradient(180deg, #85A4F9 0%, #43527D 100%) 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    opacity: 1;
+    color: white;
+    padding: 75px 45px 45px 45px;
+}
+.connectCardG{
+    background: transparent linear-gradient(180deg, #34F3F8 0%, #1A7A7C 100%) 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    opacity: 1;
+    color: white;
+    padding: 75px 45px 45px 45px;
+}
+.connectCardP{
+    background: transparent linear-gradient(180deg, #E283F9 0%, #71427D 100%) 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    opacity: 1;
+    color: white;
+    padding: 75px 45px 45px 45px;
+}
+.custRow{
+    display: flex;
+    //flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 125px;
+}
+.formInline{
+    display: inline-block;
+}
+.gradetext {
+    font-size: 72px;
+    background-image: linear-gradient(119deg, #00F6FF, #EE00FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.gradientBG{
+    background: transparent radial-gradient(closest-side at 50% -20%, #0070B0 0%, #004F7F 31%, #00223B 78%, #001020 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.gradientBG2{
+    background: transparent radial-gradient(closest-side at 50% -20%, #0070B0 0%, #004F7F 31%, #00223B 78%, #001020 100%) 0% 0% no-repeat padding-box;
+    opacity: 1; 
+}
+.groupIMG{
+    width: 650px;
+}
+.labelInline{
+    display: inline;
+}
+.lgTextBlue{
+    text-align: center;
+    letter-spacing: 0px;
+    color: #678BFB;
+    opacity: 1;
+}
+.lgTextWhite{
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.resourcesCont{
+    position: relative;
+}
+.resourcesIMG{
+    position: absolute;
+    top: -90px;
+    left: 180px;
+    width: 100px;
+    z-index: 2;
+}
+.resourcesIMG2{
+    position: absolute;
+    top: -90px;
+    left: 180px;
+    width: 100px;
+    height: 161.28px;
+    z-index: 2;
+}
+.transparentBtn{
+    border-radius: 10px;
+    background: transparent 0% 0% no-repeat padding-box;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #00F6FF;
+    border-color: #00F6FF;
+}
+.transparentBtn2{
+    border-radius: 10px;
+    background: transparent 0% 0% no-repeat padding-box;
+    text-align: left;
+    letter-spacing: 0px;
+    color: white;
+    border-color: white;
+}
+.white{
+    color: white;
+}
+.whiteBG{
+    background: white;
+}

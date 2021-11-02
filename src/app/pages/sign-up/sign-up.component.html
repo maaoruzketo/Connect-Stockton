@@ -1,0 +1,219 @@
+<!-- Checkboxes css, font-matching, form padding, steps opacity??, Column sizes {sm, md, lg, xl}   -->
+<div class="gradientBG">
+    <div class="container">
+        <div class="container">
+            <div class="text-center paddingSpace">
+                <h1 class="white">Get Connected</h1>
+                <p class="white blockText"> Stockton residents who meet income requirements can apply for free broadband
+                    internet to their household.
+                    Complete this simple 4-step form to see if you qualify.</p>
+            </div>
+        </div>
+        <form>
+            <div class="container connectCont formCont">
+                <div class="stepsContainer connectCont">
+                    <p class="stepsCentering">Step</p>
+                    <h6>1</h6>
+                </div>
+                <div class="custRow pb-3">
+                    <div class="col-12 col-lg-6">
+                        <label for="firstName" class="labelText">First Name</label>
+                        <input class="form-control" type="text" placeholder="First Name" name="firstName" required>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <label for="lastName" class="labelText">Last Name</label>
+                        <input class="form-control" type="text" placeholder="Last Name" name="lastName" required>
+                    </div>
+                </div>
+
+                <div class="col-12 pb-3">
+                    <label for="email" class="labelText">Email</label>
+                    <input class="form-control" type="text" placeholder="Enter Email" name="email" required>
+                </div>
+
+                <div class="custRow pb-3">
+                    <div class="col-12 col-lg-6">
+                        <label for="phoneNumber" class="labelText">Phone</label>
+                        <input class="form-control" type="text" placeholder="Phone" name="phoneNumber" required>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <label for="mobileNumber" class="labelText">Mobile</label>
+                        <input class="form-control" type="text" placeholder="Mobile" name="mobileNumber" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container connectCont formCont">
+                <div class="stepsContainer connectCont">
+                    <p class="stepsCentering">Step</p>
+                    <h6>2</h6>
+                </div>
+
+                <div class="col-12 pb-3">
+                    <label for="address" class="labelText">Address</label>
+                    <input class="form-control" type="text" placeholder="Address" name="address" required>
+                </div>
+
+                <div class="custRow">
+                    <div class="col-12 col-lg-6 pb-3">
+                        <label for="city" class="labelText">City</label>
+                        <input class="form-control" type="text" placeholder="City" name="city" required>
+                    </div>
+                    <div class="col-6 col-lg-2 pb-3">
+                        <label for="state" class="labelText">State (Abbr.)</label>
+                        <select class="form-control" name="state">
+                            <option value=""></option>
+                            <option value="CA">CA</option>
+                        </select>
+                    </div>
+                    <div class="col-6 col-lg-4 pb-3">
+                        <label for="zip" class="labelText">ZIP</label>
+                        <input class="form-control" type="text" placeholder="ZIP" name="zip" required>
+                    </div>
+                </div>
+
+                <div class="custRow pb-3">
+                    <div class="col-12 col-lg-8">
+                        <label for="residenceType" class="labelText">Type of Residence</label>
+                        <input class="form-control" type="text" placeholder="Type of Residence" name="residenceType"
+                            required>
+                    </div>
+                    <div class="col-6 col-lg-2 padding-top-rem">
+                        <input class="mr-2" type="radio" id="rent" name="ownRent">
+                        <label for="rent">Rent</label>
+                    </div>
+                    <div class="col-6 col-lg-2 padding-top-rem">
+                        <input class="mr-2" type="radio" id="own" name="ownRent">
+                        <label for="own">Own</label><br>
+                    </div>
+                </div>
+
+                <div class="custRow pb-3">
+                    <div class="col-12 col-lg-6 pb-3">
+                        <label for="Household" class="labelText">Number of Household Members</label>
+                        <input class="form-control" type="text" placeholder="Number of Household Members"
+                            name="Household" required>
+                    </div>
+                    <div class="col-11 col-lg-3">
+                        <label for="" class="labelText">Time at Residence</label>
+                        <input class="form-control formContInline" type="text" placeholder="Years" name="" required>
+                        <label for="" class="labelText pl-2">Yrs</label>
+                    </div>
+                    <div class="col-11 col-lg-3">
+                        <label for="" class="labelText dnDisplay">Time at Residence</label>
+                        <input class="form-control formContInline" type="text" placeholder="Months" name="" required>
+                        <label for="" class="labelText pl-2">Mos</label>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container connectCont formCont">
+                <div class="stepsContainer connectCont">
+                    <p class="stepsCentering">Step</p>
+                    <h6>3</h6>
+                </div>
+
+                <div class="col-12 pl-3 pb-2 form-check-inline">
+                    <p>Do you currently have access to broadband internet services at this residence?</p>
+                    <input class="form-check-input mb-3 ml-4" type="radio" id="yes" name="currentInternet">
+                    <label class="form-check-label mb-3 ml-1" for="Yes">Yes</label><br>
+                    <input class="form-check-input mb-3 ml-4" type="radio" id="no" name="currentInternet">
+                    <label class="form-check-label mb-3 ml-1" for="No">No</label><br>
+                </div>
+                <div class="custRow pb-3">
+                    <div class="col-6">
+                        <label for="internetProvider" class="labelText">Yes, the name of my provider is:</label>
+                        <select class="form-control" name="internetProvider">
+                            <option value=""></option>
+                            <option value="CA">CA</option>
+                        </select>
+                    </div>
+
+                    <div class="col-6">
+                        <label for="internetProvider" class="labelText">Other:</label>
+                        <input class="form-control" type="text" name="internetProvider">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container connectCont formCont">
+                <div class="stepsContainer connectCont">
+                    <p class="stepsCentering">Step</p>
+                    <h6>4</h6>
+                </div>
+
+                <div class="col-12 pb-2">
+                    <h5>Check any of the following that apply to your household:</h5>
+                    <input type="checkbox" class="checkBox" id="lowIncome" name="lowIncome" value="">
+                    <label class="labelInline pl-1" for="lowIncome">Low-income (household of four: at or below $49,000 annual
+                        income)</label>
+                </div>
+                <div class="col-12 pb-2">
+                    <input type="checkbox" class="checkBox" id="publicHousing" name="publicHousing" value="">
+                    <label class="labelInline pl-1" for="publicHousing">Live in public housing</label>
+                </div>
+                <div class="col-12 pb-2">
+                    <input type="checkbox" class="checkBox" id="studentAtHome" name="studentAtHome" value="">
+                    <label class="labelInline pl-1" for="studentAtHome">Have a K-12 student or college student in your
+                        household</label>
+                </div>
+                <div class="col-12 pb-2">
+                    <input type="checkbox" class="checkBox" id="freeLunch" name="freeLunch" value="">
+                    <label class="labelInline pl-1" for="freeLunch">Participate in the National School Lunch Program (free or
+                        reduced lunch at school)</label>
+                </div>
+                <div class="col-12 pb-2">
+                    <input type="checkbox" class="checkBox" id="SNAP" name="SNAP" value="">
+                    <label class="labelInline pl-1" for="SNAP">Participate in Supplemental Nutrition Assistance Program (food
+                        stamps or CalFresh)</label>
+                </div>
+                <div class="col-12 pb-2">
+                    <input type="checkbox" class="checkBox" id="TNAF" name="TNAF" value="">
+                    <label class="labelInline pl-1" for="TNAF">Participate in Temporary Assistance for Needy Families Program
+                        - TANF (or
+                        CalWorks)</label>
+                </div>
+                <div class="col-12 pb-2">
+                    <input type="checkbox" class="checkBox" id="SSI" name="SSI" value="">
+                    <label class="labelInline pl-1" for="SSI">Participate in Supplemental Security Income (SSI)</label>
+                </div>
+                <div class="col-12 pb-2">
+                    <input type="checkbox" class="checkBox" id="medicAid" name="medicAid" value="">
+                    <label class="labelInline pl-1" for="medicAid">Participate in Medicaid or Medi-Cal</label>
+                </div>
+                <div class="col-12 pb-2">
+                    <input type="checkbox" class="checkBox" id="WIC" name="WIC" value="">
+                    <label class="labelInline pl-1" for="WIC">Participate in Women, Infants, and Children (WIC)</label>
+                </div>
+                <div class="col-12 pb-2">
+                    <input type="checkbox" class="checkBox" id="headStart" name="headStart" value="">
+                    <label class="labelInline pl-1" for="headStart">Participate in Head Start</label>
+                </div>
+                <div class="col-12 pb-2">
+                    <input type="checkbox" class="checkBox" id="LIHEAP" name="LIHEAP" value="">
+                    <label class="labelInline pl-1" for="LIHEAP">Participate in Low Income Home Energy Assistance Program
+                        (LIHEAP)</label>
+                </div>
+                <div class="col-12 pb-2">
+                    <input type="checkbox" class="checkBox" id="veteransPension" name="veteransPension" value="">
+                    <label class="labelInline pl-1" for="veteransPension">Participate in Veterans Pension and Survivor
+                        Benefits</label>
+                </div>
+                <div class="col-12 pb-2">
+                    <input type="checkbox" class="checkBox" id="CEP" name="CEP" value="">
+                    <label class="labelInline pl-1" for="CEP">Participate in Community Eligibility Provision (CEP)</label>
+                </div>
+                <div class="col-12 pb-2">
+                    <input type="checkbox" class="checkBox" id="indianAffairs" name="indianAffairs" value="">
+                    <label class="labelInline pl-1" for="indianAffairs">Bureau of Indian Affairs</label>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center pt-2 pb-4">
+                <button type="submit" class="colorBtn">SUBMIT FORM</button>
+            </div>
+        </form>
+
+
+    </div>
+</div>
