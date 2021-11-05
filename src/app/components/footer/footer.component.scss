@@ -1,3 +1,11 @@
+// .clear{
+//     clear: both;
+// }
+.countyLogo{
+    width: 260px;
+    padding: 0 15px 0 15px;
+    margin-top: -15px;
+}
 .footer-gradient{
     height: 140px;
     background: transparent linear-gradient(97deg, #096182 0%, #1A0D85 47%, #6D0094 100%) 0% 0% no-repeat padding-box;
@@ -5,13 +13,12 @@
 }
 .left{
     float: left;
-    display: flex; 
-    justify-content: space-evenly; 
 }
-.right{
-    float: right;
-    display: flex; 
-    justify-content: space-evenly; 
+.socialMedia{
+    width: 48px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin-top: -15px;
 }
 .white{
     color: white;

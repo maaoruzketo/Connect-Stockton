@@ -1,120 +1,152 @@
+.blockText{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25rem;
+}
+.blue{
+    color: #678BFB;
+}
 .buildingsIMG{
-    width: 943px;
-    height: 738px;
-    
+    width: 100%;
+    margin-top: -35px;
 }
 .checkBox{
     border-radius: 8px;
     margin-right: 10px;
 }
 .colorBtn{
-    border-radius: 10px;
-    background: #00F6FF 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    background: #00F6FF;
     text-align: left;
     letter-spacing: 0px;
     color: #230C87;
+    font-weight: 600;
+    //border-color: #00F6FF;
+}
+.connectCard{
+    border-radius: 30px;
+    opacity: 1;
+    color: white;
+    padding: 75px 45px 45px 45px;
+    margin-bottom: 75px;
 }
 .connectCardB{
     background: transparent linear-gradient(180deg, #85A4F9 0%, #43527D 100%) 0% 0% no-repeat padding-box;
-    border-radius: 30px;
-    opacity: 1;
-    color: white;
-    padding: 75px 45px 45px 45px;
 }
 .connectCardG{
     background: transparent linear-gradient(180deg, #34F3F8 0%, #1A7A7C 100%) 0% 0% no-repeat padding-box;
-    border-radius: 30px;
-    opacity: 1;
-    color: white;
-    padding: 75px 45px 45px 45px;
 }
 .connectCardP{
     background: transparent linear-gradient(180deg, #E283F9 0%, #71427D 100%) 0% 0% no-repeat padding-box;
-    border-radius: 30px;
-    opacity: 1;
-    color: white;
-    padding: 75px 45px 45px 45px;
 }
-.custRow{
-    display: flex;
-    //flex-wrap: wrap;
-    gap: 15px;
-    margin-bottom: 125px;
+// .custRow{
+//     display: flex;
+//     //flex-wrap: wrap;
+//     gap: 15px;
+//     margin-bottom: 125px;
+// }
+.expand{
+    width: 100;
+}
+.fifty{
+    justify-content: center;
+    width: 50%;
+    padding: 25px;
 }
 .formInline{
     display: inline-block;
 }
 .gradetext {
-    font-size: 72px;
+    //font-size: 72px;
     background-image: linear-gradient(119deg, #00F6FF, #EE00FF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: .9;
 }
 .gradientBG{
-    background: transparent radial-gradient(closest-side at 50% -20%, #0070B0 0%, #004F7F 31%, #00223B 78%, #001020 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(119deg, #096182 0%, #1A0D85 47%, #6D0094 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
+    padding: 65px 0 145px 0;
 }
 .gradientBG2{
-    background: transparent radial-gradient(closest-side at 50% -20%, #0070B0 0%, #004F7F 31%, #00223B 78%, #001020 100%) 0% 0% no-repeat padding-box;
+    background: transparent radial-gradient(closest-side at 50% -20%, #0070B0 0%, #004F7F 31%, #00223B 78%) 0% 0% no-repeat padding-box;
     opacity: 1; 
+    padding: 65px 0 145px 0;
 }
 .groupIMG{
-    width: 650px;
+    width: 100%;
+    margin-top: -35px;
 }
 .labelInline{
     display: inline;
 }
-.lgTextBlue{
+.lgText{
+    font-size: 2.5rem;
     text-align: center;
     letter-spacing: 0px;
-    color: #678BFB;
     opacity: 1;
+    font-weight: 900;
 }
-.lgTextWhite{
-    text-align: center;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
+.lgText.blue{
+    text-align: start;
 }
-.resourcesCont{
-    position: relative;
+.lgText.white{
+    padding-bottom: 95px;
 }
+.purple{
+    color: #680093;
+}
+// .resourcesCont{
+//     position: relative;
+// }
 .resourcesIMG{
-    position: absolute;
-    top: -90px;
-    left: 180px;
-    width: 100px;
+    margin-top: -195px;
+    margin-left: 180px;
+    width: 30%;
     z-index: 2;
 }
 .resourcesIMG2{
-    position: absolute;
-    top: -90px;
-    left: 180px;
-    width: 100px;
-    height: 161.28px;
+    margin-top: -185px;
+    margin-left: 174px;
+    width: 35%;
     z-index: 2;
 }
+.requirements{
+    justify-content: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row.card-cont{
+    gap: 25px;
+    display: grid;
+    //grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);
+}
 .transparentBtn{
-    border-radius: 10px;
+    border-radius: 4px;
     background: transparent 0% 0% no-repeat padding-box;
     text-align: left;
     letter-spacing: 0px;
     color: #00F6FF;
     border-color: #00F6FF;
+    font-weight: 600;
 }
 .transparentBtn2{
-    border-radius: 10px;
+    border-radius: 4px;
     background: transparent 0% 0% no-repeat padding-box;
     text-align: left;
     letter-spacing: 0px;
     color: white;
     border-color: white;
+    font-weight: 600;
 }
 .white{
     color: white;
 }
 .whiteBG{
     background: white;
+    padding: 65px 0 90px 0;
 }

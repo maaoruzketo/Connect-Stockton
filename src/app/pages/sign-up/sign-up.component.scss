@@ -5,6 +5,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 25rem;
+    padding-bottom: 25px;
 }
 .checkBox{
     border-radius: 8px;
@@ -12,12 +13,12 @@ body{
 }
 
 .colorBtn{
-    border-radius: 10px;
-    background: #00F6FF 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    background: #00F6FF;
     text-align: left;
     letter-spacing: 0px;
     color: #230C87;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .connectCont{
@@ -39,9 +40,14 @@ body{
 .dnDisplay{
     color: rgba(0, 0, 0, 0);
 }
+.formColumn{
+    display: flex;
+    flex-direction: column;
+}
 .formCont{
+    width: 850px;
     padding: 3rem;
-    margin: 2rem;
+    margin-bottom: 2rem;
 }
 .formContInline{
     width: 75%;
@@ -65,7 +71,7 @@ h6{
     padding-top: 2.4rem;
 }
 .paddingSpace{
-    padding-top: 200px;
+    padding-top: 70px;
 }
 .stepsCentering{
     margin-left: -6px !important;
