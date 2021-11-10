@@ -37,9 +37,7 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-.dnDisplay{
-    color: rgba(0, 0, 0, 0);
-}
+
 .formColumn{
     display: flex;
     flex-direction: column;
@@ -60,6 +58,9 @@ body{
 h6{
     font-size: 2rem;
 }
+.invisible{
+    color:rgba(0, 0, 0, 0);
+}
 .labelInline{
     display: inline;
 }
@@ -72,6 +73,9 @@ h6{
 }
 .paddingSpace{
     padding-top: 70px;
+}
+.small{
+    display: none;
 }
 .stepsCentering{
     margin-left: -6px !important;
@@ -93,7 +97,38 @@ h6{
 .white{
     color: white;
 }
-@media only screen and (max-width: 575px) {
+
+@media only screen and (max-width: 385px) {
+    .blockText{
+        width: 20rem;
+    }
+    .dnDisplay{
+        display: none;
+    }
+    .formCont{
+        // width: 355px;
+        width: 345px;
+        //margin: 0 5px 0 5px;
+    }
+    .other{
+        margin-top: 38px;
+    }
+    .small{
+        font-size: 16px;
+        margin-top: 30px;
+        display: flex;
+    }
+    .stepsContainer{
+        //left: 130px !important;
+        width: 70px;
+        height: 70px;
+        padding: 5px 10px 5px 25px;
+        left: 272px !important;
+        top: -2px !important;
+    }
+}
+
+@media only screen and (min-width:386px) and(max-width: 575px) {
     .stepsContainer{
         position: absolute;
         width: 80px;

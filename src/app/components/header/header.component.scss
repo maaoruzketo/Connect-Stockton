@@ -1,3 +1,6 @@
+.fa-bars{
+    color: white;
+}
 .header{
     z-index: 9001;
 }
@@ -7,9 +10,13 @@
     opacity: 1;
     width: 100%;
 }
+
 .right{
     float: right;
 }
 .white{
     color: white;
+}
+.whiteBG{
+    background: white;
 }

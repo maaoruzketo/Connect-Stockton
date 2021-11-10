@@ -4,10 +4,10 @@
 .countyLogo{
     width: 260px;
     padding: 0 15px 0 15px;
-    margin-top: -15px;
+    margin-top: 20px;
 }
 .footer-gradient{
-    height: 140px;
+    height: 200px;
     background: transparent linear-gradient(97deg, #096182 0%, #1A0D85 47%, #6D0094 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -18,8 +18,26 @@
     width: 48px;
     margin-right: 20px;
     margin-bottom: 5px;
-    margin-top: -15px;
+    margin-top: 10px;
 }
 .white{
     color: white;
+    padding-top: 10px;
+}
+@media only screen and (max-width: 385px) {
+    .countyLogo{
+        width: 190px;
+        margin-top: 10px;
+        padding: 0;
+    }
+    .footer-gradient{
+        height: 240px;
+    }
+    .socialMedia{
+        width: 36px;
+        margin-top: -35px;
+    }
+    .white{
+        font-size: 1rem;
+    }
 }
