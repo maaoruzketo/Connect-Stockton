@@ -13,6 +13,7 @@
       <button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
         <i class="fas fa-bars"></i>
     </button>
+    <!-- Center alignment broken on mobile in dropdown -->
 
       <div class="navbar-collapse collapse " [ngClass]="{'hide': isMenuCollapsed, 'show': !isMenuCollapsed}">
         <ul class="navbar-nav mr-auto">

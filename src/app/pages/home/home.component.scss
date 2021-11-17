@@ -19,9 +19,25 @@
     background: #00F6FF;
     text-align: left;
     letter-spacing: 0px;
-    color: #230C87;
     font-weight: 600;
     //border-color: #00F6FF;
+    transition-property: background;
+    transition-duration: .5s;
+    
+}
+
+.colorBtn:hover{
+    background:#ce21ff;
+
+}
+.colorT{
+    color: #230C87;
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+}
+.colorT:hover{
+    color: white;
 }
 .connectCard{
     border-radius: 30px;
@@ -136,6 +152,13 @@
     color: #00F6FF;
     border-color: #00F6FF;
     font-weight: 600;
+    transition-property: color;
+    transition-property: border-color;
+    transition-duration: .5s;
+}
+.transparentBtn:hover{
+    border-color: #ce21ff;
+    color: #ce21ff;
 }
 .transparentBtn2{
     border-radius: 4px;
@@ -145,6 +168,11 @@
     color: white;
     border-color: white;
     font-weight: 600;
+    transition-property: background;
+    transition-duration: .5s;
+}
+.transparentBtn2:hover{
+    background: black;
 }
 .white{
     color: white;
@@ -153,6 +181,7 @@
     background: white;
     padding: 65px 0 90px 0;
 }
+
 
 @media only screen and (max-width: 385px) {
     .blockText{

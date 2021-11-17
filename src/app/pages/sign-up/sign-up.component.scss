@@ -17,8 +17,25 @@ body{
     background: #00F6FF;
     text-align: left;
     letter-spacing: 0px;
-    color: #230C87;
     font-weight: 600;
+    //border-color: #00F6FF;
+    transition-property: background;
+    transition-duration: .5s;
+    
+}
+
+.colorBtn:hover{
+    background:#ce21ff;
+
+}
+.colorT{
+    color: #230C87;
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+}
+.colorT:hover{
+    color: white;
 }
 
 .connectCont{
